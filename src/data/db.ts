@@ -1,6 +1,5 @@
 import { Guitar } from "../types/types"
 
-//en este caso se pone el tipo : NombredelTipo,en este caso como es un array de objetos de inicia como []
 const db: Guitar [] = [
     {
         id: 1,

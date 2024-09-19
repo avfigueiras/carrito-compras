@@ -19,11 +19,7 @@ export default function Header({
       isEmptyCart,
       totals
      }: HeaderProps) {
-      
-  /*usamos el Hool useCart para las funciones necesarias pero no aca sino se van a crear dos carritos diferentes
-  para evitar eso, en el app.jsx vamos a agregar isEmptyCart y totals y las pasamos al header via props*/
-
-
+  
   return (
     <header className="py-5 header">
       <div className="container-xl">

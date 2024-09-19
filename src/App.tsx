@@ -2,10 +2,7 @@ import Guitar from "./components/Guitar";
 import Header from "./components/Header";
 import { useCart } from "./hooks/useCart";
 
-//Crear custom Hooks, deben seguir la regla useNombreDelHook, este solo tiene logica y no presentacion
-
 function App() {
-  //para usar el hook, creamos el objeto y dentro lo que estemos usando en el hook dentro del return
  const {data,cart,addToCart,deleteFromCart,increaseQuantity,decreaseQuantity,cleanCart,isEmptyCart, totals} = useCart()
 
   return (
